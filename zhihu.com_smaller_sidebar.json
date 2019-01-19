@@ -1,0 +1,26 @@
+[
+	{
+		"enabled": true,
+		"updateUrl": null,
+		"md5Url": null,
+		"url": null,
+		"originalMd5": null,
+		"installDate": 1547031185345,
+		"name": "知乎 内容优先 缩小侧栏",
+		"sections": [
+			{
+				"code": "body,\n.ContentItem-title {\n    font-family: \"Hiragino Sans GB\", \"Source Han Sans SC\", \"Miscrosoft Yahei\", sans-serif;\n    font-size: 1.5rem !important;\n}\n\n.QuestionHeader-title,\n.List-headerText {\n    font-size: 1rem;\n}\n\n/* .PageHeader, */\n.Question-sideColumn.Question-sideColumn--sticky {\n    display: none;\n}\n\n.ContentItem-actions {\n    padding: 0;\n}\n\n/* .AppHeader-inner {\n    height: 100%;\n} */\n.Question-main {\n    margin-left: auto !important;\n    right: auto !important;\n    width: 90%;\n}\n.QuestionHeader-content,\n.Question-mainColumn {\n    width: 100%;\n}",
+				"urlPrefixes": [
+					"https://www.zhihu.com/question/"
+				]
+			},
+			{
+				"code": "body,\n.ContentItem-title {\n    font-family: \"Hiragino Sans GB\", \"Source Han Sans SC\", \"Miscrosoft Yahei\", sans-serif;\n    font-size: 1.25rem;\n}\ncode {\n    font-family: \"Source Code Pro\", Monaco, Consolas, monospace !important;\n}\n.FeedSource-firstline {\n    font-size: 1rem;\n}\n\n.Sticky.AppHeader.is-fixed {\n    position: absolute;\n}\n\n.GlobalSideBar div div.Sticky.is-fixed {\n    position: absolute;\n}\n\n.GlobalSideBar-navList,\n.Footer {\n    display: none;\n}\n.Topstory-container,\n.Topstory-mainColumn {\n    width: 90%\n}\n\n.GlobalWrite-nav {\n    flex-wrap: wrap;\n}\n\n.GlobalWrite-navItem,\n.GlobalSideBar-categoryItem {\n    width: 100%;\n}\n\n.RichContent.is-collapsed .RichContent-inner {\n    max-height: 100%;\n}\n\n@media screen and (min-width: 1000px) {\n    .ztext .origin_image {\n        max-width: 60% !important;\n    }\n}\n@media screen and (min-width: 800px) {\n    .ztext .origin_image {\n        max-width: 80%;\n    }\n}",
+				"urlPrefixes": [
+					"https://www.zhihu.com/"
+				]
+			}
+		],
+		"id": 2
+	}
+]
